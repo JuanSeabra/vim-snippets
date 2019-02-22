@@ -91,8 +91,7 @@ snippet cl
 	 *
 	 *  ${4:Detailed description}
 	 */
-	class ${1:`vim_snippets#Filename('$1', 'name')`}
-	{
+	class ${1:`vim_snippets#Filename('$1', 'name')`} {
 	public:
 		$1(${2});
 		virtual ~$1();
@@ -213,7 +212,6 @@ snippet try
 
 	}
 snippet af auto function
-	auto ${1:name}(${2}) -> ${3:void}
-	{
+	auto ${1:name}(${2}) -> ${3:void} {
 		${0}
 	};
